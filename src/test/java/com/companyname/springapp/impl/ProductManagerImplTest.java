@@ -2,7 +2,6 @@ package com.companyname.springapp.impl;
 
 import static org.junit.Assert.*;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import org.junit.Before;
@@ -66,7 +65,7 @@ public class ProductManagerImplTest {
     public void testIncreasePriceWithEmptyListOfProducts() {
         try {
             productManager = new ProductManagerImpl();
-            productManager.setProducts(new ArrayList<Product>());
+//            productManager.setProducts(new ArrayList<Product>());
             productManager.increasePrice(POSITIVE_PRICE_INCREASE);
         }
         catch(Exception ex) {
