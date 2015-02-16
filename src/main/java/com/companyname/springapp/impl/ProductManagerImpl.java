@@ -3,11 +3,13 @@ package com.companyname.springapp.impl;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.companyname.springapp.model.Product;
 import com.companyname.springapp.repository.ProductDAO;
 import com.companyname.springapp.service.ProductManager;
 
+@Service
 public class ProductManagerImpl implements ProductManager {
 
     @Autowired
