@@ -6,7 +6,7 @@ import junit.framework.TestCase;
 
 import org.springframework.web.servlet.ModelAndView;
 
-import com.companyname.springapp.impl.ProductManagerImpl;
+import com.companyname.springapp.service.impl.ProductManagerImpl;
 
 public class InventoryControllerTest extends TestCase{
 	
